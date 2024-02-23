@@ -2,7 +2,8 @@ import { DEPARTMENT } from "../constants/departments";
 import { GENDER } from "../constants/gender";
 import { STATE } from "../constants/state";
 
-export interface Istudent{
+export interface Student{
+    id: number;
     firstName: string;
     lastName: string;
     matricNumber:number|string;
